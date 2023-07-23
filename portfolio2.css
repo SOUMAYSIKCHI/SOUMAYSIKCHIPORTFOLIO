@@ -12,42 +12,77 @@
     overflow-y: none;
 }
 @media(max-width:658px){
-    #navitems{
-        display: flex;
-        flex-wrap: wrap;
+    .container{
         flex-direction: column;
-        font-size: 1rem;
     }
-    #navlogo{
-        font-size: 1rem;
+    .navitems{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     .rightsection{
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
+    .firstsection{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerbox2{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutright1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutleft1{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .aboutleft2{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutright2{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
 
 #navlist{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    font-size: 2.2rem;
+    font-size: 1.5rem;
 }
 
 
 .container{
     height: 100%;
     width:  100%;
-    min-height: 60px;
+    min-height: 30px;
     background-color: #222f3d;
-      /*background-color:rgb(247, 248, 252);
-    box-shadow: rgba(157, 157, 157, 0.2);
-    */
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 
 #navlogo{
-    font-size: 2.8rem;
+    font-size: 2.0rem;
     padding: 30px;
     color:  white;
 }
@@ -74,8 +109,10 @@
 .main{
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #fff 50%, #E0C3FC 100%);
-    height: 600px;
+    height: 100%;
+    width: 100%;
 }
+
 
 .firstsection{
     display: flex;
@@ -96,6 +133,7 @@
 }
 .rightsection{
      padding: 20px;
+     display: flex;
 }
 h1{
     color:blue;
@@ -397,6 +435,7 @@ button:active {
         padding-top: 75px;
         width:50%;
         height: 500px;
+        display: flex;
     }
     .aboutleft1{
         margin-left: 25px;
